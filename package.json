@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-drum-kit",
+  "description": "A Drum Kit project made With VanillaJS #Javascript30",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "serve src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andresp87/JS30-JavaScript-Drum-Kit.git"
+  },
+  "keywords": [
+    "drum",
+    "kit",
+    "javascript30"
+  ],
+  "author": "Andres Patiño",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Andresp87/JS30-JavaScript-Drum-Kit/issues"
+  },
+  "homepage": "https://JS30-JavaScript-Drum-Kit.github.io",
+  "dependencies": {
+    "serve": "^12.0.1"
+  }
+}
