@@ -3,7 +3,7 @@
   "description": "A Drum Kit project made With VanillaJS #Javascript30",
   "version": "1.0.0",
   "scripts": {
-    "dev": "serve src",
+    "start": "serve src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,7 +16,7 @@
     "javascript30"
   ],
   "author": "Andres Patiño",
-  "license": "",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Andresp87/JS30-JavaScript-Drum-Kit/issues"
   },

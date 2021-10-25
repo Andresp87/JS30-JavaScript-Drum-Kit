@@ -17,18 +17,16 @@
 // A.addEventListener("click");
 
 const soundFile = {
-    key: 65,
-    sound: new Audio ('clap.wav'),
-}
+  key: 65,
+  sound: new Audio("clap.wav"),
+};
 
-
-document.addEventListener('keydown', test);
+document.addEventListener("keydown", test);
 
 function test(event) {
-        
-        if (event.keyCode == soundFile.key) {
-            soundFile.sound.play();
-        }
+  if (event.keyCode == soundFile.key) {
+    soundFile.sound.play();
+  }
 
-    console.log(event.keyCode);
-};
+  console.log(event.keyCode);
+}
