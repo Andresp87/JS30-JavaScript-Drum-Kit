@@ -1,34 +1,48 @@
-// const A = document.getElementsByClassName("buttonA");
 
-// const soundFile = [
-//     new Audio ('clap.wav'),
-//     new Audio ('hihat.wav'),
-//     new Audio ('kick.wav'),
-//     new Audio ('openhat.wav'),
-//     new Audio ('boom.wav'),
-//     new Audio ('ride.wav'),
-//     new Audio ('snare.wav'),
-//     new Audio ('tom.wav'),
-//     new Audio ('tink.wav'),
-// ]
+document.addEventListener("keydown", playSound);
 
-// console.log(A);
+function playSound(event) {
 
-// A.addEventListener("click");
+    switch (event.keyCode) {
 
-const soundFile = {
-    key: 65,
-    sound: new Audio ('clap.wav'),
-}
+        case 65:
+            new Audio ("/src/sounds/clap.wav").play();
+        break
 
-
-document.addEventListener('keydown', test);
-
-function test(event) {
+        case 83:
+            new Audio ("/src/sounds/hihat.wav").play();
+        break
         
-        if (event.keyCode == soundFile.key) {
-            soundFile.sound.play();
-        }
-
-    console.log(event.keyCode);
+        case 68:
+            new Audio ("/src/sounds/kick.wav").play();
+        break
+        
+        case 70:
+            new Audio ("/src/sounds/openhat.wav").play();
+        break
+        
+        case 71:
+            new Audio ("/src/sounds/boom.wav").play();
+        break
+        
+        case 72:
+            new Audio ("/src/sounds/ride.wav").play();
+        break
+        
+        case 74:
+            new Audio ("/src/sounds/snare.wav").play();
+        break
+        
+        case 75:
+            new Audio ("/src/sounds/tom.wav").play();
+        break
+        
+        case 76:
+            new Audio ("/src/sounds/tink.wav").play();
+        
+    }
 };
+
+
+
+
