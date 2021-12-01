@@ -106,81 +106,36 @@ function lTink(){
 }
 
 
+
+
 function playSound(event) {
 
-    if (event.keyCode || event == 65){
+    if (event.keyCode == 65 || event == 65){
         soundsArrayObject[0].play();
+        console.log(event.keyCode);
     } else
-    if (event.keyCode || event == 83){
+    if (event.keyCode == 83 || event == 83){
         soundsArrayObject[1].play();
     } else
-    if (event.keyCode || event == 68){
+    if (event.keyCode== 68 || event == 68){
         soundsArrayObject[2].play();
     } else
-    if (event.keyCode || event == 70){
+    if (event.keyCode == 70 || event == 70){
         soundsArrayObject[3].play();
     } else
-    if (event.keyCode || event == 71){
+    if (event.keyCode == 71 || event == 71){
         soundsArrayObject[4].play();
     } else
-    if (event.keyCode || event == 72){
+    if (event.keyCode == 72 || event == 72){
         soundsArrayObject[5].play();
     } else
-    if (event.keyCode || event == 74){
+    if (event.keyCode == 74 || event == 74){
         soundsArrayObject[6].play();
     } else
-    if (event.keyCode || event == 75){
+    if (event.keyCode == 75 || event == 75){
         soundsArrayObject[7].play();
     } else
-    if (event.keyCode || event == 76){
+    if (event.keyCode == 76 || event == 76){
         soundsArrayObject[8].play();
     }
 };
-
-
-
-
-//         switch (event.keyCode) {
-
-//         case 65:
-//         case getMainButton[0].id: 
-//             soundsArrayObject[0].play();
-//         break
-
-//         case 83:
-//             new Audio ("/src/sounds/hihat.wav").play();
-//         break
-        
-//         case 68:
-//             new Audio ("/src/sounds/kick.wav").play();
-//         break
-        
-//         case 70:
-//             new Audio ("/src/sounds/openhat.wav").play();
-//         break
-        
-//         case 71:
-//             new Audio ("/src/sounds/boom.wav").play();
-//         break
-        
-//         case 72:
-//             new Audio ("/src/sounds/ride.wav").play();
-//         break
-        
-//         case 74:
-//             new Audio ("/src/sounds/snare.wav").play();
-//         break
-        
-//         case 75:
-//             new Audio ("/src/sounds/tom.wav").play();
-//         break
-        
-//         case 76:
-//             new Audio ("/src/sounds/tink.wav").play();
-        
-//     }
-// };
-
-
-
-
